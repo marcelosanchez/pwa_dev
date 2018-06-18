@@ -29,7 +29,7 @@
   --border-color:#b8b4bd;
   --text-color:#222026;
   --body-bg:#f2f3f8;
-  --gradient-header-bg: -webkit-linear-gradient(left, rgb(52,50,116) 0%,rgb(113,80,205) 100%);
+  --gradient-header-bg: #4e3f9a;
   --z-back:-10;
   --z-normal:1;
   --z-tooltip:10;
@@ -106,7 +106,7 @@ li{
 
 }
 .main__logo img{
-  height: 15em;
+  height: 12em;
 }
 
 .btn__mylists {

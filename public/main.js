@@ -20,7 +20,7 @@
 
             let n = new Notification('Titulo', {
                 body: "Soy una notificacion",
-                icon: "./public/img/icons/icon-192x192.png"
+                icon: "/img/icons/icon-192x192.png"
             })
         })
     }

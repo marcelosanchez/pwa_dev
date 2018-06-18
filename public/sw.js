@@ -1,21 +1,21 @@
-const CACHE_NAME = "shop-list-pwa-v0.0.3"
+const CACHE_NAME = "shop-list-pwa-v0.0.4"
 
 urlsToCache = [
     '/',
     './',
     './index.html',
     './main.js',
-    './public/css/main.css',
+    '/css/main.css',
     './sw.js',
-    './public/img/favicon.ico',
-    './public/img/icons/icon-72x72.png',
-    './public/img/icons/icon-96x96.png',
-    './public/img/icons/icon-128x128.png',
-    './public/img/icons/icon-144x144.png',
-    './public/img/icons/icon-152x152.png',
-    './public/img/icons/icon-192x192.png',
-    './public/img/icons/icon-384x384.png',
-    './public/img/icons/icon-512x512.png',
+    '/img/favicon.ico',
+    '/img/icons/icon-72x72.png',
+    '/img/icons/icon-96x96.png',
+    '/img/icons/icon-128x128.png',
+    '/img/icons/icon-144x144.png',
+    '/img/icons/icon-152x152.png',
+    '/img/icons/icon-192x192.png',
+    '/img/icons/icon-384x384.png',
+    '/img/icons/icon-512x512.png',
 
     'https://fonts.googleapis.com/icon?family=Material+Icons',
     'https://code.getmdl.io/1.3.0/material.indigo-pink.min.css',
@@ -84,7 +84,7 @@ self.addEventListener('push', e => {
     let title = 'Push Notificación Demo',
         options = {
             body: 'Click para regresar a la aplicación',
-            icon: './public/img/icons/icon-192x192.png',
+            icon: '/img/icons/icon-192x192.png',
             vibrate: [100, 50, 100],
             data: { id: 1 },
             actions: [
