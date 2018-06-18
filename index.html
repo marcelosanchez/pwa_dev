@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="shortcut icon" href="./public/img/favicon.ico">
+
+    <!-- ====================== META INFO ====================== -->
+	<!-- TWITTER CARD INFO -->
+	<meta name="twitter:card" content="This web application can help you create your shopping list and don't forget anything when you go shopping." />
+	<meta name="twitter:site" content="@chelos14" />
+	<meta name="twitter:creator" content="@chelos14" />
+	<!-- EO - TWITTER CARD INFO -->
+
+	<!-- META INFO -->
+	<meta property="og:title" content="Shop List">
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://marcelosanchez.github.io/pwa_dev/">	
+	<meta property="og:description" content="This web application can help you create your shopping list and don't forget anything when you go shopping.">
+	<!-- <meta property="og:image" content="https://raw.githubusercontent.com/marcelosanchez/pwa_dev"> -->
+	<meta property="og:image" content="https://github.com/marcelosanchez/pwa_dev/blob/master/public/img/icons/icon-512x512.png">
+	
+	<meta property="og:locale" content="en_GB" />
+	<meta property="og:locale:alternate" content="es_ES" />
+	<meta property="og:locale:alternate" content="fr_FR" />
+	<!-- EO - META INFO -->
+
+	<!-- ====================== MANIFEST ====================== -->
+	<link rel="manifest" href="./manifest.json">
+	<meta name="theme-color" content="#F7DF1E">
+	  
+	<!-- Metatags iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#F7DF1E">
+	<meta name="format-detection" content="telephone=no">
+	<!--  <meta name="apple-mobile-web-app-title" content="PWA Demo"> -->
+	<link rel="apple-touch-icon" sizes="192x192" href="./images/icon_192x192.png">
+	<!-- Metatags Windows -->
+	<meta name="msapplication-TileColor" content="#F7DF1E">
+	<meta name="msapplication-TileImage" content="./images/icon_192x192.png">
+	<!-- Otros Metatags -->
+	<!-- <meta property="og:title" content="PWA Demo"> -->
+	<meta property="og:locale" content="es_MX">
+	<!-- <meta property="og:type" content="website"> -->
+	<meta property="og:image" content="./images/icon_128x128.png">
+	<!-- <meta property="og:site_name" content="CompanyName"> -->
+	<!-- <meta property="og:url" content="https://companyurl"> -->
+	<!-- EO - MANIFEST -->
+
+    <!-- ====================== VIEWPORT ====================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Shop List</title>
+
+	<!-- Material Lite -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>	
+
+	
+	<link rel="stylesheet" type="text/css" href="./public/css/main.css">
+	
+
+</head>
+<body>
+	<body>
+		<header class="header">
+			<h1 class="header__title">Shop List</h1>
+		</header>
+	
+		<!-- <nav class="nav">
+			Nav
+		</nav> -->
+	
+		<main class="main">
+			<div class="main__logo">
+				<img src="./public/img/icons/icon-512x512.png" alt="Logo">
+			</div>
+		
+			<!-- Raised button with ripple -->
+			<button class="btn__onerow btn__mylists mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+				My Lists
+			</button>
+			<br>
+			<!-- Raised button with ripple -->
+			<button class="btn__onerow btn__newlist mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+				New List
+			</button><br>
+			<!-- Raised button with ripple -->
+			<button class="btn__onerow btn__share mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+				Share
+			</button>
+		</main>
+	
+		<div class="dialog-container">
+			<!-- Dialog cont -->
+		</div>
+	
+		<div class="loader">
+			<!-- Show a spinner or placeholders for content -->
+		</div>
+	<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
